@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.searchMovie{
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchMovie h1{
+  font-family: cursive;
+  margin-bottom: 1%;
+  color: darkgreen;
+}
+
+
+.searchMovie input{
+  padding: 1%;
+  border-radius: 10%;
+  font-family: cursive;
+  font-size: 1.25rem;
+}
+
+.searchMovie button{
+  padding: .5% 2%;
+  border-radius: 10%;
+  font-family: cursive;
+  font-size: 1.25rem;
+  margin-bottom: 2%;
+  background-color: rgb(28, 105, 28);
+  color: white;
+}
+
+.searchMovie button:hover{
+  background-color: rgb(9, 153, 9);
+  color: white;
+}
+
+
+
+.details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+  margin: 1%;
+  color: rgb(55, 87, 8);
+  text-align: center;
+}
+
+.details p{
+/* background-color: darkgreen;
+color: white; */
+  font-size: 1.15rem;
+  padding: .15%;
+}
+
+
+
